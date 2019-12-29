@@ -40,10 +40,7 @@ a:active {
   border: .05rem solid rgb(17, 163, 127);
   align-content: center;
   padding: 1px;
-
   width: 200px;
-
-  margin-left: 5%;
 }
 .btn-secondary:hover {
   color: rgb(117, 17, 163);
@@ -52,15 +49,10 @@ a:active {
   border: .05rem solid rgb(117, 17, 163);
   align-content: center;
   padding: 1px;
-
   width: 200px;
-
-  margin-left: 5%;
 }
 
-
 /* Everything above has to do with links -----------------------------*/
-
 
 html,
 body {
@@ -80,10 +72,8 @@ body {
   max-width: 42em;
 }
 
+ /* Header ----------------------------------------------------------*/
 
-/*
- * Header ----------------------------------------------------------
- */
 .masthead {
   margin-bottom: 2rem;
   justify-content: center;
@@ -101,8 +91,6 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
@@ -119,8 +107,6 @@ body {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
-
-
 
 /* footer ------------------------------------------------------------ */
 
@@ -152,6 +138,7 @@ body {
   order: 3;
   margin-top: 10px;
 }
+
 /* end of footer --------------------------------*/
 
 /* BODY CONTENT STUFF LIKE FONTS ---------------------------------------------- */
@@ -160,6 +147,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .summ {
   flex: 3;
@@ -167,8 +155,6 @@ body {
   text-align: center;
   font-weight: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-right: 5%;
-  
   min-width: 300px;
 }
 .picwinfo {
@@ -192,8 +178,5 @@ img {
   border: 1px solid rgb(17, 163, 127);
   border-radius: 4px;
   padding: 5px;
-
   width: 200px;
-
-  margin-left: 5%;
 }
