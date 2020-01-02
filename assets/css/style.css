@@ -1,6 +1,7 @@
 a,
 a:focus {
-  color: rgb(17, 163, 127);
+  /* color: rgb(17, 163, 127); ------ original bluish green ----- */
+  color: rgb(15, 197, 188);
   text-decoration: none;
 }
 a:hover {
@@ -8,13 +9,13 @@ a:hover {
   text-decoration: none;
 }
 a:active {
-  color: rgb(255, 200, 168);
+  color: rgb(255, 255, 255);
 }
 .navbox .navlink {
   text-decoration: none;
   padding: .25rem 0;
   font-weight: 700;
-  color: rgb(17, 163, 127);
+  color: rgb(15, 197, 188);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
@@ -27,17 +28,17 @@ a:active {
 }
 .navbox .active {
   color: rgb(209, 64, 7);
-  border-bottom-color: rgb(17, 163, 127);
+  border-bottom-color: rgb(15, 197, 188);
 }
 .navlink:active {
-  color: rgb(255, 200, 168);
+  color: rgb(255, 255, 255);
 }
 .btn-secondary,
 .btn-secondary:focus {
-  color: rgb(17, 163, 127);
+  color: rgb(15, 197, 188);
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: rgba(0, 0, 0, 0);
-  border: .05rem solid rgb(17, 163, 127);
+  border: 1px solid rgb(15, 197, 188);
   align-content: center;
   padding: 1px;
   width: 200px;
@@ -85,18 +86,18 @@ body {
   justify-content: space-around;
   margin-bottom: 0;
   color: rgb(255, 255, 255);
-  padding-top: 60px;
+  padding-top: 50px;
   padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  border: solid 3px rgb(17, 163, 127);
+  border: double 4px rgb(15, 197, 188);
   border-radius: 100%;
-  font-weight: bold;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #name {
   flex: 2;
   order: 1;
+  font-weight: bolder;
 }
 #sub {
   flex: 1;
@@ -132,8 +133,8 @@ body {
   margin-top: 10%;
   margin-bottom: 10%;
   padding: 0;
-  border-top: solid 2px rgb(17, 163, 127);
-  border-bottom: solid 2px rgb(17, 163, 127);
+  border-top: solid 2px rgb(15, 197, 188);
+  border-bottom: solid 2px rgb(15, 197, 188);
   text-align: center;
   font-size: xx-small;
 }
@@ -141,17 +142,17 @@ body {
   text-align: left;
   flex: 4;
   order: 1;
-  margin-top: 11px;
+  margin-top: 14px;
 }
 #linkedinlink {
   flex: 1;
   order: 2;
-  margin-top: 11px;
+  margin-top: 14px;
 }
 #githublink {
   flex: 1;
   order: 3;
-  margin-top: 11px;
+  margin-top: 14px;
 }
 
 /* end of footer --------------------------------*/
@@ -190,7 +191,7 @@ body {
 }
 img {
   align-content: center;
-  border: 1px solid rgb(17, 163, 127);
+  border: 1px solid rgb(15, 197, 188);
   border-radius: 4px;
   padding: 5px;
   width: 200px;
