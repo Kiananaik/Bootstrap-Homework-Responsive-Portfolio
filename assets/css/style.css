@@ -4,7 +4,7 @@ a:focus {
   text-decoration: none;
 }
 a:hover {
-  color: rgb(117, 17, 163);
+  color: rgb(163, 17, 163);
   text-decoration: none;
 }
 a:active {
@@ -20,13 +20,13 @@ a:active {
 }
 .navbox .navlink:hover,
 .navbox .navlink:focus {
-  border-bottom-color: rgb(117, 17, 163);
+  border-bottom-color: rgb(163, 17, 163);
 }
 .navbox .navlink + .navlink {
   margin-left: 1rem;
 }
 .navbox .active {
-  color: rgb(117, 17, 163);
+  color: rgb(163, 17, 163);
   border-bottom-color: rgb(17, 163, 127);
 }
 .navlink:active {
@@ -43,10 +43,10 @@ a:active {
   width: 200px;
 }
 .btn-secondary:hover {
-  color: rgb(117, 17, 163);
+  color: rgb(163, 17, 163);
   background-color: rgba(0, 0, 0, 0);
   text-shadow: none; /* Prevent inheritance from `body` */
-  border: .05rem solid rgb(117, 17, 163);
+  border: .05rem solid rgb(163, 17, 163);
   align-content: center;
   padding: 1px;
   width: 200px;
@@ -190,3 +190,6 @@ img {
   text-align: center;
   margin-top: 7%;
 }
+
+/* MAINBOX FOR PORTFOLIO HTML ----- USING BOOTSTRAP ROWS AND COLUMNS HERE ----- */
+
