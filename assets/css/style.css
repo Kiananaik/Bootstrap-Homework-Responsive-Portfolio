@@ -4,11 +4,11 @@ a:focus {
   text-decoration: none;
 }
 a:hover {
-  color: rgb(255, 0, 255);
+  color: rgb(209, 64, 7);
   text-decoration: none;
 }
 a:active {
-  color: rgb(255, 30, 68);
+  color: rgb(255, 200, 168);
 }
 .navbox .navlink {
   text-decoration: none;
@@ -20,17 +20,17 @@ a:active {
 }
 .navbox .navlink:hover,
 .navbox .navlink:focus {
-  border-bottom-color: rgb(255, 0, 255);
+  border-bottom-color: rgb(209, 64, 7);
 }
 .navbox .navlink + .navlink {
   margin-left: 1rem;
 }
 .navbox .active {
-  color: rgb(255, 0, 255);
+  color: rgb(209, 64, 7);
   border-bottom-color: rgb(17, 163, 127);
 }
 .navlink:active {
-  color: rgb(255, 30, 68);
+  color: rgb(255, 200, 168);
 }
 .btn-secondary,
 .btn-secondary:focus {
@@ -43,10 +43,10 @@ a:active {
   width: 200px;
 }
 .btn-secondary:hover {
-  color: rgb(255, 0, 255);
+  color: rgb(209, 64, 7);
   background-color: rgba(0, 0, 0, 0);
   text-shadow: none; /* Prevent inheritance from `body` */
-  border: .05rem solid rgb(255, 0, 255);
+  border: .05rem solid rgb(209, 64, 7);
   align-content: center;
   padding: 1px;
   width: 200px;
