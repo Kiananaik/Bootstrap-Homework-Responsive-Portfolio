@@ -180,3 +180,13 @@ img {
   padding: 5px;
   width: 200px;
 }
+
+/* CONTACT BOXES FOR CONTACT PAGE ----------------------------*/
+
+.contactbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 7%;
+}
