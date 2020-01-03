@@ -2,7 +2,7 @@ a,
 a:focus,
 a:active {
   /* color: rgb(17, 163, 127); ------ original bluish green ----- */
-  color: rgb(255, 255, 255);
+  color: rgb(15, 197, 188);
   text-decoration: none;
 }
 a:hover {
