@@ -26,7 +26,7 @@ a:hover {
 }
 .navbox .active {
   color: rgb(209, 64, 7);
-  border-bottom-color: rgb(15, 197, 188);
+  border-bottom-color: solid 1px rgb(15, 197, 188);
 }
 .navlink:active {
   color: rgb(255, 255, 255);
@@ -36,7 +36,7 @@ a:hover {
   color: rgb(15, 197, 188);
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: rgba(0, 0, 0, 0);
-  border: 1px dotted rgb(15, 197, 188);
+  border: 1px solid rgb(209, 64, 7);
   align-content: center;
   padding: 1px;
   width: 200px;
@@ -45,16 +45,18 @@ a:hover {
   color: rgb(209, 64, 7);
   background-color: rgba(0, 0, 0, 0);
   text-shadow: none; /* Prevent inheritance from `body` */
-  border: 1px solid rgb(209, 64, 7);
+  border: 1px solid rgb(15, 197, 188);
   align-content: center;
   padding: 1px;
   width: 200px;
 }
 
-/* Everything above has to do with links -----------------------------*/
+/* Everything above has to do with links -----------------------------
+--------- BELOW starts with body, followed by everything else ------------ */
 
 html,
 body {
+  
   height: 100%;
   background-image: url(../images/black_scales/black_scales.png);
   background-attachment: fixed;
@@ -71,7 +73,7 @@ body {
   max-width: 50em;
 }
 
- /* Header ----------------------------------------------------------*/
+ /* ------------------- HEADER -------------------------*/
 
 .masthead {
   margin-bottom: 2rem;
@@ -122,7 +124,7 @@ body {
   font-weight: 700;
 }
 
-/* footer ------------------------------------------------------------ */
+/* ---------------------- FOOTER --------------------------------- */
 
 .footerbox {
   display: -ms-flexbox;
@@ -131,8 +133,8 @@ body {
   margin-top: 5%;
   margin-bottom: 5%;
   padding: 0;
-  border-top: solid 2px rgb(15, 197, 188);
-  border-bottom: solid 2px rgb(15, 197, 188);
+  border-top: solid 1.3px rgb(15, 197, 188);
+  border-bottom: solid 1.3px rgb(15, 197, 188);
   text-align: center;
   font-size: xx-small;
 }
@@ -153,7 +155,7 @@ body {
   margin-top: 14px;
 }
 
-/* end of footer --------------------------------*/
+/* -------- end of footer --------------------------------*/
 
 /* BODY CONTENT STUFF LIKE FONTS ---------------------------------------------- */
 
@@ -203,6 +205,26 @@ img {
   justify-content: center;
   text-align: center;
   margin-top: 5%;
+}
+#subject {
+  width: 300px;
+  height: 300px;
+}
+.submit {
+  text-shadow: none;
+  padding: 10px 20px 11px !important;
+  font-size: 21px !important;
+  background-color: rgb(15, 197, 188);
+  font-weight: bold;
+  text-shadow: 1px 1px rgb(15, 197, 188);
+  color: rgb(255, 255, 255);
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border: 1px solid rgb(15, 197, 188);
+  box-shadow: 0 5px 0 rgb(255, 255, 255) inset;
+  -moz-box-shadow: 0 5px 0 rgb(255, 255, 255) inset;
+  -webkit-box-shadow: 0 5px 0 rgb(255, 255, 255) inset;
 }
 
 /* MAINBOX FOR PORTFOLIO HTML ----- USING BOOTSTRAP ROWS AND COLUMNS HERE ----- */
