@@ -211,6 +211,7 @@ img {
   height: 300px;
 }
 .submit {
+  text-decoration: none;
   text-shadow: none;
   padding: 10px 20px 11px !important;
   font-size: 21px !important;
@@ -222,10 +223,17 @@ img {
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
   border: 1px solid rgb(15, 197, 188);
-  box-shadow: 0 5px 0 rgb(255, 255, 255) inset;
-  -moz-box-shadow: 0 5px 0 rgb(255, 255, 255) inset;
-  -webkit-box-shadow: 0 5px 0 rgb(255, 255, 255) inset;
+  box-shadow: 0 3px 0 rgb(255, 255, 255) inset;
+  -moz-box-shadow: 0 3px 0 rgb(255, 255, 255) inset;
+  -webkit-box-shadow: 0 3px 0 rgb(255, 255, 255) inset;
 }
 
 /* MAINBOX FOR PORTFOLIO HTML ----- USING BOOTSTRAP ROWS AND COLUMNS HERE ----- */
+
+
+
+
+
+
+
 
