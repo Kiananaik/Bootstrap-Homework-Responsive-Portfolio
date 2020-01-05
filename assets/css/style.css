@@ -237,7 +237,9 @@ img {
 /* MAINBOX FOR PORTFOLIO HTML ----- USING BOOTSTRAP ROWS AND COLUMNS HERE ----- */
 
 
-
+.des {
+  margin-top: 5px;
+}
 
 
 
